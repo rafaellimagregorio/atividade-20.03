@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table1</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+
+    body {
+      justify-content: center;
+      align-items: center;
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 0 auto;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 20%;
+      margin: 0 auto;
+    }
+
+    table,
+    tr,
+    td {
+      border: 1px solid #000;
+    }
+
+    td {
+      height: 59px;
+    }
+
+  </style>
+</head>
+<body>
+  <main>
+    <div class="btn"><a href="table2.html">Table 2</a></div>
+    <div class="btn2"><a href="table3.html">Table 3</a></div>
+  </main>
+  <table style="margin-top: 80px;">
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr style="text-align: center;">
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr style="text-align: right;">
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <table>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td colspan="3" style="text-align: center;">4</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <table>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td rowspan="3" style="text-align: center;">3</td>
+      </tr>
+      <tr>
+        <td colspan="3" style="text-align: center;">4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

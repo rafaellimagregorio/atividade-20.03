@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+     body {
+      justify-content: center;
+      align-items: center;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 0 auto;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+
+    table,
+    th, 
+    td {
+      border: 1px solid #000;
+      text-align: center;
+    }
+
+    th,
+    td {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+      
+  </style>
+</head>
+<body>
+  <main>
+    <div class="btn"><a href="table1.html">Table 1</a></div>
+    <div class="btn2"><a href="table2.html">Table 2</a></div>
+  </main>
+  <div style="display: inline-block;">
+    <table style="margin-top: 80px;">
+      <tbody>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <div style="display: inline-block;">
+      <table>
+        <tr>
+          <td rowspan="3"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <div style="display: inline-block;">
+      <table>
+        <tr>
+          <td colspan="5"></td>
+        </tr>
+        <tr>
+          <td rowspan="4"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td rowspan="2"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

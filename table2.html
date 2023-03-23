@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table2</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      justify-content: center;
+      align-items: center;
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 0 auto;
+    } 
+
+    table {
+      border-collapse: collapse;
+      width: 20%;
+      margin: 0 auto;
+    }
+
+    table,
+    tr,
+    td {
+      border: 1px solid #000;
+    }
+
+    td {
+      text-align: center;
+    }
+
+    thead td {
+      padding: 20px 0;
+    }
+
+    tbody td {
+      padding: 160px 0;
+    }
+
+    tfoot td {
+      padding: 10px 0;
+    }
+
+    .conteudo {
+      padding: 160px 50px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="btn"><a href="table1.html">Table 1</a></div>
+    <div class="btn2"><a href="table3.html">Table 3</a></div>
+  </main>
+  <table style="margin-top: 80px;">
+    <thead>
+      <tr>
+        <td colspan="2" style="text-align: center;">TOPO</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>MENU</td>
+        <td class="conteudo">CONTEÚDO</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2" style="text-align: center;">RODAPÉ</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
